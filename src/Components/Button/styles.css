@@ -1,0 +1,13 @@
+.button {
+    border: none;
+    background-color: #8f7a66;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    
+}
+.button.dark-theme {
+    background-color: #888EB3;
+}

@@ -1,0 +1,19 @@
+
+.header {
+    width: 31vw;
+    max-width: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.title {
+    font-size: 7rem;
+    color: #756e66;
+}
+.title.dark-theme {
+    color: whitesmoke;
+}

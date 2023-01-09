@@ -1,0 +1,12 @@
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+		max-width: 1000px;
+    gap: .5rem;
+    background-color: #b9ada1;
+    border-radius: 5px;
+    padding: .8rem;
+}
+.board.dark-theme {
+  background-color: #31324e;
+}
