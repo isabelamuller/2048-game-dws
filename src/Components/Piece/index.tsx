@@ -5,9 +5,11 @@ import "./styles.css"
 
 const Piece: React.FC<PieceProps> = ({ num }) => {
     const { theme } = useContext(ThemeContext)
-
     return (
-        num === 0 ? <div className={`piece piece_0 ${theme}-theme`}></div> : <div className={`piece piece_${num} ${theme}-theme`}> {num}</div>
+        num === 0 ?
+            <div className={`piece piece_0 ${theme}-theme`}></div>
+            :
+            <div className={`piece piece_${num} ${theme}-theme`}> {num}</div>
     )
 
 }

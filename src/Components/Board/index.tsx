@@ -5,7 +5,7 @@ import './styles.css'
 import { ThemeContext } from '../Theme/ThemeContext'
 
 const Board: React.FC<BoardProps> = ({ currentState }) => {
-    const { theme, toggleTheme } = useContext(ThemeContext)
+    const { theme } = useContext(ThemeContext)
     return (
         <>
              <div className={`board ${theme}-theme`}>
